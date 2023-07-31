@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+
+	<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+		<title>LUMINAI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<script src="https://kit.fontawesome.com/3f2a8c7dae.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Poppins:wght@400;700&display=swap"
+		rel="stylesheet">
+		<link rel="stylesheet" href="index.css">
+	</head>
+
+	<body>
+		<header>
+			<img src="./images/logo-movie.png" alt="LUMINAI">
+			<a href="/"><span>LUMIN</span>AI</a>
+		</header>
+		<main>	
+			<!-- The Setup -->	
+			<section id="setup-container">
+				<div class="setup-inner">
+					<img class="movieboss" src="/images/movieboss.png">
+					<div class="speech-bubble-ai" id="speech-bubble-ai">
+						<p id="movie-boss-text">
+						I am official LUMINAI how can i help you ?
+						</p>
+					</div>
+				</div>
+				<div class="setup-inner setup-input-container" id="setup-input-container">
+					<textarea id="setup-textarea" placeholder="what is Luminai?."></textarea>
+					<button class="send-btn" id="send-btn" aria-label="send">
+							<img src="images/send-btn-icon.png" alt="send">
+					</button>
+				</div>
+			</section>	
+			<!-- The Output -->	
+			<section class="output-container" id="output-container">
+				<div id="output-img-container" class="output-img-container"></div>
+				<h1 id="output-title"></h1>
+				<h2 id="output-stars"></h2>
+				<p id="output-text"></p>
+			</section>
+		</main>	
+		<footer>
+			
+			<div class="footerdiv">
+                
+					<li>
+					  <a href="https://t.me/Luminaichat">
+						<i class="fa-brands fa-telegram"></i>
+						
+					  </a>
+					</li>
+					<li>
+					  <a href="https://twitter.com/luminaiai">
+						<i class="fa-brands fa-twitter" ></i>
+					  
+					  </a>
+					</li>
+				  
+					&copy; 2023 LUMINAI All rights reserved
+			</div>
+		</footer>
+		<script type="module" src="index.js"></script>
+	</body>
+
+</html>
