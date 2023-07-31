@@ -1,7 +1,7 @@
 
 import { Configuration, OpenAIApi } from 'openai'
 
-const api=;
+const api=process.env.OPENAI_API_KEY;
 
 const setupInputContainer = document.getElementById('setup-input-container')
 const movieBossText = document.getElementById('movie-boss-text')
