@@ -1,5 +1,6 @@
 
 import { Configuration, OpenAIApi } from 'openai'
+import { process } from './env'
 
 const api=process.env.OPENAI_API_KEY;
 
